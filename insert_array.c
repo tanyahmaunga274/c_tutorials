@@ -12,6 +12,7 @@
 * If valid, shift all the elements from the last index to position index by 1 posotion to the right.
 * insert the new element in the position
 * Otherwise, invalid position
+*/
 int main(void)
 {
 	int LA[] = {1, 3, 5, 7, 8};
