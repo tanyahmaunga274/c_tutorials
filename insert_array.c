@@ -4,7 +4,14 @@
 * main - implementation of the insertion program
 * where we add data at the end of the array
 * Return: Always 0 (Success)
-*/
+*
+* Algorithm to insert data into an array
+* Get the element to be inserted into the array
+* Get the position on which to insert the element in the array
+* Check if the position is valid or not
+* If valid, shift all the elements from the last index to position index by 1 posotion to the right.
+* insert the new element in the position
+* Otherwise, invalid position
 int main(void)
 {
 	int LA[] = {1, 3, 5, 7, 8};
